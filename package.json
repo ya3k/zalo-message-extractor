@@ -1,0 +1,25 @@
+{
+  "name": "zalo-message-extractor",
+  "version": "1.0.0",
+  "description": "POC for extracting messages from personal Zalo account using zca-js",
+  "type": "module",
+  "main": "src/zalo-client.js",
+  "scripts": {
+    "list-groups": "node scripts/list-groups.js",
+    "test-history": "node scripts/test-group-history.js",
+    "worker": "node scripts/run-worker.js",
+    "listen": "node scripts/listen-realtime.js",
+    "verify-egress": "node scripts/verify-egress.js",
+    "test": "node --test tests/**/*.test.js"
+  },
+  "keywords": [
+    "zalo",
+    "extractor",
+    "zca-js"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "zca-js": "^2.2.0"
+  }
+}

@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Session & Credentials
+session.json
+*.session.json
+cookies.json
+credentials.json
+qr.png
+*.png
+
+# Storage & Output data
+output/*.json
+!output/.gitkeep
+output/media/
+/storage/
+/media/
+/checkpoints/
+*.tmp
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
